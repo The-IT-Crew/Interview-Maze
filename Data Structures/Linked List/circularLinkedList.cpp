@@ -1,33 +1,64 @@
+// representation of circular lined list using single linked list
+// circular linked list can be implemented using double linked list as well
+
 #include <iostream>
 using namespace std;
 
-// node of a linked list
-class node{
+class Node {                                    // node class
     public:
     int data;
-    node * link;
+    Node * next;
+    Node (int data) {
+        data = data;
+        next = NULL;
+    }
+};
+
+class LinkedList {                              // linked list class
+    public:
+    Node * head;                                // head of the linked list
+
+    void append (int data) {                    // append an element in the linked list
+        if (head == NULL) {
+            head = new Node(data);
+            return;
+        }
+        Node * ptr = head;
+        while (ptr->next != NULL) {
+            ptr = ptr->next;
+        }
+        Node * fresh = new Node(data);
+        fresh->next = head;
+        ptr->next = fresh;
+    }
+
+    void preappend (int data) {                 // append an element before the linked list
+
+    }
+
+    void append_after (int data, int key) {     // append an element after a specific key
+
+    }
+
+    void display () {                           // display the linekd list
+        if (head != NULL) {
+            cout << "Lined list is empty" << endl;
+            return;
+        }
+        Node * start = head;
+        Node * ptr = head;
+        while (ptr->next != start) {
+            cout << ptr->data << " ";
+        }
+        cout << endl;
+    }
 };
 
 // driving code
-int main(){
-    node * n1, * n2, * n3;        // node initialization
-    n1 = new node();
-    n2 = new node();
-    n3 = new node();
-    n1->data = 10;
-    n2->data = 20;
-    n3->data = 30;
-    n1->link = n2;
-    n2->link = n3;
-    n3->link = n1;
-
-    // display
-    node * ptr = n1;
-    while (ptr != NULL){            // infinite loop
-        cout << ptr->data << " ";
-        ptr = ptr->link;
-    }
-    cout << endl;
-
-    return 0;
+int main() {
+    LinkedList * head = new LinkedList();
+    head->display();                    // empty
+    head->append(20);
+    head->append(30);
+    head->display();
 }
