@@ -1,6 +1,10 @@
 # Complexity Analysis
 
-## 📚 Topics
+[Home](./index.md) > Complexity Analysis
+
+<br>
+
+## Topics
 
 | # | Topic Name | Video | Article|
 |-|-|-|-|
@@ -11,9 +15,8 @@
 | 5 | Probabilistic analysis | [professor painter]() | [i2tutorials]() </br> [jessica su]() |
 
 <br>
-<br>
 
-## 🎒 Questions
+## Questions
 
 > 1. What is the time complexity of the given code snippet below? (with elaboration) `#easy`
 ```
@@ -30,5 +33,6 @@ prime(26);
 <br>
 
 ----
-[⬅️ Home](./index.md) | 
+[🏠 Home](./index.md) | 
+[⬅️ Previous](./index.md) | 
 [➡️ Next](./arrays.md)
