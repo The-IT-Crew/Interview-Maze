@@ -2,7 +2,7 @@
 
 ## 📚 Topics
 
-| # | Topic Name | Video | Article
+| # | Topic Name | Video | Article|
 |-|-|-|-|
 | 1 | Running time and space analysis | [abdul bari]() </br> [geekforgeeks]() | [algorithm tutor]() |
 | 2 | Rate of growth | [Asha Khilrani]() | [study algorithms]() |
@@ -10,13 +10,12 @@
 | 4 | Amortize analysis | [career monk]() | [geekforgeeks]() |
 | 5 | Probabilistic analysis | [professor painter]() | [i2tutorials]() </br> [jessica su]() |
 
-</br>
-</br>
+<br>
+<br>
 
 ## 🎒 Questions
 
 > 1. What is the time complexity of the given code snippet below? (with elaboration) `#easy`
-
 ```
 Int prime(int n){
     for (int i=5; i*i<10000; i++){
@@ -27,7 +26,9 @@ Int prime(int n){
 prime(26);
 ```
 
+<br>
+<br>
 
 ----
-[⬅️ Home]() | 
-[➡️ Next]()
+[⬅️ Home](./index.md) | 
+[➡️ Next](./arrays.md)

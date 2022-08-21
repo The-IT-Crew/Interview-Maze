@@ -21,7 +21,7 @@ A community of self-learners, to prepare for technical interviews. Our motive is
 ### Data Structures
 
 - [Complexity Analysis](./complexity_analysis.md)
-- [Arrays]()
+- [Arrays](./arrays.md)
 - [Linked List]()
 - [Stack]()
 - [Queue]()
