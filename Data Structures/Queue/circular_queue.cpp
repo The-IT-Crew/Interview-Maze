@@ -1,6 +1,6 @@
 // circular queue using fixed sized array
 #include <iostream>
-#define SIZE 10                                 // size of the queue
+#define SIZE 3                                  // size of the queue
 using namespace std;
 
 class Queue {                                   // queue class
@@ -20,25 +20,27 @@ class Queue {                                   // queue class
             queue[rear] = data;
             return;
         }
-        if ((rear == front) && rear != 0) {     // if queue is full
-            cout << "queue is full" << endl;
+        int next = (rear+1) % SIZE;             // next circular location
+        if (next != front) {                    // if queue is full
+            rear = next;
+            queue[rear] = data;
         } else {
-            queue[rear % SIZE] = data;
+            cout << "queue is full" << endl;
         }
     }
 
     int pop () {                                // pop element from the queue
-        int item;
         if (front == -1) {                      // if queue is empty
             cout << "queue is empty" << endl;
             exit(0);
-        }
+        }                                       // else
+        int item;
         item = queue[front];
         if (front == rear) {                    // reset front and rear
             front = -1;
             rear = -1;
         } else {
-            front = front % SIZE;
+            front = (front+1) % SIZE;
         }
         return item;
     }
@@ -55,12 +57,9 @@ class Queue {                                   // queue class
         if (front == -1 && rear == -1) {        // queue is empty
             cout << "queue is empty" << endl;
             exit(0);
-        }
-        int temp_rear = rear;
-        if (rear <= front) {                    // if rear is circled
-            temp_rear = SIZE + rear;
-        }
-        for (int i=front; i<=temp_rear; i++) {
+        }                                       // else
+        if (rear < front) rear = SIZE + rear;
+        for (int i=front; i<=rear; i++) {
             cout << queue[i%SIZE] << " ";
         }
         cout << endl;
@@ -72,10 +71,12 @@ int main () {                                   // driving code
     queue.push(10);
     queue.push(20);
     queue.push(30);
+    queue.push(40);                             // error: queue is full
     queue.display();
     cout << "front: " << queue.qfront() << endl;
     cout << "back: " << queue.qrear() << endl;
     cout << "delete: " << queue.pop() << endl;
+    queue.push(40);
     queue.display();
     return 0;
 }
