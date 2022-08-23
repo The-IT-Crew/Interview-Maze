@@ -1,4 +1,4 @@
-# Lined List
+# Linked List
 
 [Home](./index.md) > Linked List
 
@@ -8,9 +8,10 @@
 
 | # | Topic Name | Video | Article | Code |
 |-|-|-|-|-|
-| 1 | Single linked list and its operations | [neso academy](https://youtube.com/playlist?list=PLBlnK6fEyqRi3-lvwLGzcaquOs5OBTCww) | [btechsmartclass](http://www.btechsmartclass.com/data_structures/single-linked-list.html) <br> [geeksforgeeks](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/) | [c++](https://github.com/The-IT-Crew/Interview-Maze/blob/main/Data%20Structures/Linked%20List/singleLinkedList.cpp) |
-| 2 | Doubly linked list and its operations | [neso academy](https://youtube.com/playlist?list=PLBlnK6fEyqRg7pacSDMgPn7vDVhz3N1uf) | [geeksforgeeks](https://www.geeksforgeeks.org/doubly-linked-list/) |  [c++](https://github.com/The-IT-Crew/Interview-Maze/blob/main/Data%20Structures/Linked%20List/doubleLinkedLIst.cpp) |
-| 3 | Circular linked list and its operations | [neso academy](https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM) <br> index 249 - 265 | [geeksforgeeks](https://www.geeksforgeeks.org/circular-linked-list/) | [c++](https://github.com/The-IT-Crew/Interview-Maze/blob/main/Data%20Structures/Linked%20List/circularLinkedList.cpp) |
+| 1 | Single linked list and its operations | [neso academy](https://youtube.com/playlist?list=PLBlnK6fEyqRi3-lvwLGzcaquOs5OBTCww) | [btechsmartclass](http://www.btechsmartclass.com/data_structures/single-linked-list.html) <br> [geeksforgeeks ](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/) | [`c++`](https://github.com/The-IT-Crew/Interview-Maze/blob/main/Data%20Structures/Linked%20List/singleLinkedList.cpp) |
+| 2 | Doubly linked list and its operations | [neso academy](https://youtube.com/playlist?list=PLBlnK6fEyqRg7pacSDMgPn7vDVhz3N1uf) | [geeksforgeeks](https://www.geeksforgeeks.org/doubly-linked-list/) |  [`c++`](https://github.com/The-IT-Crew/Interview-Maze/blob/main/Data%20Structures/Linked%20List/doubleLinkedLIst.cpp) |
+| 3 | Circular linked list and its operations | [neso academy](https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM) <br> index 249 - 265 | [geeksforgeeks](https://www.geeksforgeeks.org/circular-linked-list/) | [`c++`](https://github.com/The-IT-Crew/Interview-Maze/blob/main/Data%20Structures/Linked%20List/circularLinkedList.cpp) |
+| 4 | XOR linked list (memory efficient linked list) | [cppNuts](https://www.youtube.com/watch?v=hMcHVfu3E8U) | [geeks for geeks](https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/) | `todo` |
 
 <br>
 

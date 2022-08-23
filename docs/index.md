@@ -11,7 +11,7 @@ This is a community driven repository. Feel free to contribute. Follow the steps
 
 - `Clone` in your local drive.
 ```sh
-% git clone 
+% git clone https://github.com/The-IT-Crew/Interview-Maze
 ```
 
 - Make changes and commit.
@@ -55,3 +55,7 @@ This is a community driven repository. Feel free to contribute. Follow the steps
 - [Table](./table.md)
 - [Tree](./tree.md)
 - [Graph](./graph.md)
+
+## Algorithms
+
+- coming soon

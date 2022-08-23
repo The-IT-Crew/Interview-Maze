@@ -1,4 +1,4 @@
-# Lined List
+# Stack
 
 [Home](./index.md) > Linked List
 
@@ -8,7 +8,7 @@
 
 | # | Topic Name | Video | Article | Code |
 |-|-|-|-|-|
-| 1 | Stack and memory indexing | [jennys academy]() <br> [aditya verma]() | [tutorialspoint]() | [c++]() [using static array] <br> [c++]() [using linked list] |
+| 1 | Stack and memory indexing | [jennys academy]() <br> [aditya verma]() | [tutorialspoint]() | [`c+`+`]() [using static array] <br> [`c++`]() [using linked list] |
 
 <br>
 
