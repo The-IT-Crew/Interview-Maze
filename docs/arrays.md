@@ -8,7 +8,7 @@
 
 | # | Topic Name | Video | Article | Code |
 |-|-|-|-|-|
-| 1 | Array, and memory allocation | [cs dojo](https://www.youtube.com/watch?v=pmN9ExDf3yQ) | [simplilearn](https://www.simplilearn.com/tutorials/data-structure-tutorial/arrays-in-data-structure) | [`c++`](../Data%20Structures/Arrays/array.cpp) |
+| 1 | Array, and memory allocation | [cs dojo](https://www.youtube.com/watch?v=pmN9ExDf3yQ) | [simplilearn](https://www.simplilearn.com/tutorials/data-structure-tutorial/arrays-in-data-structure) | [`c++`](https://github.com/The-IT-Crew/Interview-Maze/blob/main/Data%20Structures/Arrays/array.cpp) |
 | 2 | Window sliding technique | [byte by byte](https://youtu.be/GcW4mgmgSbw) | [geeksforgeeks](https://www.geeksforgeeks.org/window-sliding-technique/) | -- |
 
 <br>
