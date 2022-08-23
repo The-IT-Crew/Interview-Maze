@@ -16,7 +16,8 @@ class Node {                                    // node structure
     }
 };
 
-Node* Xor (Node * ptr1, Node * ptr2 = reinterpret_cast <Node*>(0)) {          // XOR of two Node pointers
+// XOR of two Node pointers
+Node* Xor (Node * ptr1, Node * ptr2 = NULL) {
     return reinterpret_cast <Node*> (
         reinterpret_cast <uintptr_t> (ptr1) ^
         reinterpret_cast <uintptr_t> (ptr2)
@@ -32,30 +33,39 @@ class LinkedList {                              // linked list class
         head = NULL;
     }
 
-    void push (int data) {
+    void push (int data) {                      // push element in the linked list
         if (head == NULL) {                     // if list is empty
             head = new Node(data);
+            return;
         }                                       // else
         Node * fresh =  new Node(data);
         Node * ptr = head;
-        fresh->link = Xor(ptr);
+        Node * prev = NULL;
+        Node * next;
+        while (Xor(prev, ptr->link) != NULL) {  // iterate through the nodes
+            next = Xor(prev, ptr->link);
+            prev = ptr;
+            ptr = next;
+        }
+        ptr->link = Xor(prev, fresh);           // update the 2nd last node
+        fresh->link = Xor(ptr);                 // last node
     }
 
-    /*
-
-                            ptr
-    10          20          30
-  0 ^ 20     10 ^ 30     20 ^ 0
-
-    */
-
-    int pop () {
-
-        return 1;
-    }
-
-    void display () {
-        
+    void display () {                           // display the linked list
+        if (head == NULL) {
+            cout << "list is empty" << endl;
+            return;                             // to terminate use exit(0)
+        }                                       // else
+        Node * curr = head;
+        Node * prev = NULL;
+        Node * next;
+        while (curr != NULL) {                  // iterarte through the links
+            cout << curr->data << " ";
+            next = Xor(prev, curr->link);
+            prev = curr;
+            curr = next;
+        }
+        cout << endl;
     }
 };
 
@@ -66,7 +76,5 @@ int main () {                                   // driving code
     list.push(20);
     list.push(30);
     list.display();
-    cout << "delete: " << list.pop() << endl;
-    list.display();
-
+    return 0;
 }
