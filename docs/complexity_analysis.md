@@ -8,11 +8,11 @@
 
 | # | Topic Name | Video | Article|
 |-|-|-|-|
-| 1 | Running time and space analysis | [abdul bari]() </br> [geekforgeeks]() | [algorithm tutor]() |
+| 1 | Running time and space analysis | [abdul bari]() <br> [geekforgeeks]() | [algorithm tutor]() |
 | 2 | Rate of growth | [Asha Khilrani]() | [study algorithms]() |
-| 3 | Asymptotic notation, O-notation, 𝛳-notation, 𝜴-notation | [Abdul Bari]() </br> [gate smashers]() | [geekforgeeks]() |
+| 3 | Asymptotic notation, O-notation, 𝛳-notation, 𝜴-notation | [Abdul Bari]() <br> [gate smashers]() | [geekforgeeks]() |
 | 4 | Amortize analysis | [career monk]() | [geekforgeeks]() |
-| 5 | Probabilistic analysis | [professor painter]() | [i2tutorials]() </br> [jessica su]() |
+| 5 | Probabilistic analysis | [professor painter]() | [i2tutorials]() <br> [jessica su]() |
 
 <br>
 
