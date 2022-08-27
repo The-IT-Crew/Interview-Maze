@@ -56,6 +56,10 @@ This is a community driven repository. Feel free to contribute. Follow the steps
 - [Tree](./tree.md)
 - [Graph](./graph.md)
 
-## Algorithms
+### Algorithms
 
 - coming soon
+
+## Miscellaneous problems
+
+- [problems](./miscellaneous.md)
