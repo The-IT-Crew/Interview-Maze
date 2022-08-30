@@ -11,9 +11,6 @@
 2. > Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window. For example, given "jiujitsu", you should return 5, corresponding to the final five letters. `#medium` [code: [c++](https://github.com/The-IT-Crew/Interview-Maze/blob/main/Problem%20Solving/miscellaneous/smallest_window.cpp)]
 
 
-
-
-
 <br>
 <br>
 

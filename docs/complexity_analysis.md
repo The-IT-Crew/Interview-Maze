@@ -13,6 +13,7 @@
 | 3 | Asymptotic notation, O-notation, 𝛳-notation, 𝜴-notation | [Abdul Bari](https://www.youtube.com/watch?v=A03oI0znAoc) <br> [gate smashers](https://www.youtube.com/watch?v=7dz8Iaf_weM) | [geekforgeeks](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/) |
 | 4 | Amortize analysis | [career monk](https://www.youtube.com/watch?v=yK7d2FL5eSs) | [geekforgeeks](https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/) |
 | 5 | Probabilistic analysis | [professor painter](https://www.youtube.com/watch?v=sEa19hE8R6g) | [i2tutorials](https://www.i2tutorials.com/design-and-analysis-of-algorithmsdaa-tutorial/daa-probabilistic-analysis/) <br> [jessica su](https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture6.pdf) |
+| 6 | Logarithmic complexity | -- | [interviewcake.com](https://www.interviewcake.com/article/python/logarithms?course=fc1&section=algorithmic-thinking) |
 
 <br>
 
