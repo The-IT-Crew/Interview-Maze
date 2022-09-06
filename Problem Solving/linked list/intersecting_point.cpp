@@ -22,11 +22,11 @@ int solution (forward_list <int> & a, forward_list <int> & b) {
     auto itr_b = b.begin();                 // iterator for list B
     int sum_A = 0;
     int sum_B = 0;
-    while (itr_a != a.end()) {              // time: O(M+N)
+    while (itr_a != a.end()) {              // time: O(M)
         sum_A += *itr_a;
         itr_a++;                            // iterate to the next pointer
     }
-    while (itr_b != b.end()) {              // time: O(M+N)
+    while (itr_b != b.end()) {              // time: O(N)
         sum_B += *itr_b;
         itr_b++;                            // iterate to the next pointer
     }
