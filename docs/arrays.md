@@ -71,6 +71,9 @@ I/P:    [1,2], [3]
 O/P:	2.00000 (median value of [1,2,3] is 2)
 ```
 
+15. > Write a program to draw fibonacci series up to a given number N. `#easy`
+
+
 <br>
 <br>
 
