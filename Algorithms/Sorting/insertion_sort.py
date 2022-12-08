@@ -15,8 +15,3 @@ def insertion_sort(arr):
             i -= 1
         arr[i+1] = key
     return arr, comparision
-
-if __name__ == "__main__":
-    arr = [5,4,3,2,1]
-    # testing goes here
-    print(insertion_sort(arr))
