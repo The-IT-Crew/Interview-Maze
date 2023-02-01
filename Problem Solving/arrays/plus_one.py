@@ -4,8 +4,17 @@
 # are ordered from most significant to least significant in left-to-right order. 
 # The large integer does not contain any leading 0's.
 
+# Approach:
+# traverse the entire list in reverse order
+#   add 1 to each index
+#   if current index's value > 9 after addition, then
+#       current index's value = 0
+#   else
+#       return digits
+# add 1 in the 0'th index and return digits
+
 # Sample Output:
-# --------------
+
 # Input: digits = [1,2,3]
 # Output: [1,2,4]
 
@@ -14,12 +23,13 @@
 
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        s = str()
-        for a in digits:
-            s += str(a)
-        b = int(s) + 1
-        temp = []
-        while b != 0:
-            temp.append(b%10)
-            b //= 10
-        return reversed(temp)
+        for i in range(len(digits)-1, -1, -1):
+            digits[i] += 1
+            if digits[i] > 9:
+                digits[i] = 0
+            else:
+                return digits
+        digits.insert(0,1)
+        return digits
+
+
