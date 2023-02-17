@@ -4,17 +4,17 @@
 # disks are stacked in decreasing order of diameters. The objective of this puzzle
 # is to move the entire disks of one rod to another rod, keeping the order maintain.
 
-# Rules:	1. One rod can move at a time.
-#			2. Only top element can be moved.
-#			3. All disks should maintain the decreasing order of width.
+# Rules: 1. One rod can move at a time.
+#	 2. Only top element can be moved.
+#	 3. All disks should maintain the decreasing order of width.
 
 # Example: Move disks of A to rod C. (N=3)
 # I/P: 	A = [3,2,1]
-#		B = []
-#		C = []
+#	B = []
+#	C = []
 # O/P:	A = []
-#		B = []
-#		C = [3,2,1]
+#	B = []
+#	C = [3,2,1]
 
 # Approach:
 # Base case: N==1
