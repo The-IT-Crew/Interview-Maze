@@ -13,7 +13,7 @@ def knapsack(weights, profits, capacity, total_items):
     # select items
     for a in _per_unit_cost:
         index = per_unit_cost.get(a)
-        if weights[index] < capacity:
+        if weights[index] <= capacity:
             cost += profits[index]
             capacity -= weights[index]
 
