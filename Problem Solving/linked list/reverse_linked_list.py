@@ -9,7 +9,9 @@
 # Problem Statement: Given the head of a singly linked list, reverse the list, and return the reversed list.
 
 class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    
+    # bruit force solution with O(n^2) time complexity, with constant space
+    def reverseList1(self, head: Optional[ListNode]) -> Optional[ListNode]:
         listNode_temp = ListNode()
         listNode_head = listNode_temp
 
@@ -26,5 +28,25 @@ class Solution:
             temp.next = None
         
         listNode_temp.next = head
+
+        return listNode_head.next
+    
+    # optimized time complexity to O(n) and O(n) space
+    def reverseList2(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        listNode_temp = ListNode()
+        listNode_head = listNode_temp
+        stack = list()
+
+        # iterate through the head
+        while head:
+            stack.append(head.val)
+            head = head.next
+        
+        # insert values to the new linked list
+        while len(stack) != 0:
+            new_listNode = ListNode(stack[-1])
+            listNode_temp.next = new_listNode
+            listNode_temp = listNode_temp.next
+            stack.pop()
 
         return listNode_head.next
