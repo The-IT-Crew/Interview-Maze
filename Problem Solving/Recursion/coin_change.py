@@ -1,6 +1,7 @@
-# Coin change using recursion
+# COIN CHANGE
 
-# PROBLEM STATEMENT: Given a list of coins with infinite amount, and a target amount.
+# Problem Link: https://leetcode.com/problems/coin-change/
+# Problem Statement: Given a list of coins with infinite amount, and a target amount.
 # We have to return the minimum number of coins needed to make the amount.
 
 # Approach:

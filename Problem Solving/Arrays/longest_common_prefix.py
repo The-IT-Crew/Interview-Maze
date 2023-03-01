@@ -1,6 +1,6 @@
-# Problem link:
-# Problem statement:
-# Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string ""
+# Problem link: https://leetcode.com/problems/longest-common-prefix/
+# Problem statement: Write a function to find the longest common prefix string amongst an array of strings.
+# If there is no common prefix, return an empty string ""
 
 # Approach:
 # if strs contains only one elemet, then return strs[0]

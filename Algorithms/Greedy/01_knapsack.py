@@ -1,4 +1,4 @@
-# 01 knapsack using greedy
+# 01 KNAPSACK
 
 def knapsack(weights, profits, capacity, total_items):
     per_unit_cost = dict()

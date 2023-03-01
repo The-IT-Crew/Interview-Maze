@@ -1,3 +1,9 @@
+/*  ARRAY ROTATION
+************************************************************************
+    Given an array 'arr' and an 'index'. You have to return the reverse
+    the elements of the array upto the given index.
+***********************************************************************/
+
 #include <iostream>
 using namespace std;
 

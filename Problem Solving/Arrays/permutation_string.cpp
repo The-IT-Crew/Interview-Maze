@@ -1,4 +1,5 @@
 /* Problem: Given two strings, write a method to decide if one is a permutation of the other.
+
 edge cases to ask the interviewer -
 - what does permutaion means? 
 - is the string ascii string or unicode string? [ascii]
