@@ -5,6 +5,8 @@
 # Problem Statement: <Full Problem Statement>
 # Solved By: <author_name>
 
+# Approach: brute force & Optimized
+
 # Sample Example with Output (Optional)
 
 <your_solution_program>
