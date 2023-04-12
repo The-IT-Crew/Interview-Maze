@@ -42,7 +42,7 @@ Interview Maze is a private community of self learners to prepare for technical 
 
 - Every Solution should be well documented
 - Use &bull; (`&bull;`) as a separator
-- Use [template](./Template.txt) before making any pull request.
+- Use [template](./template.txt) before making any pull request.
 - Contributers can use any language.
 - program name must start with lower case characters.
 
