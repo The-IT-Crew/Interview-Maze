@@ -4,7 +4,7 @@
 ![Fork](https://img.shields.io/github/forks/The-IT-Crew/Interview-Maze)
 ![Status](https://img.shields.io/github/stars/The-IT-Crew/Interview-Maze)
 
-Interview Maze is a private community of self learners to prepare for technical interviews. Our motive is to push each other to get better results. Feel free to contribute. This repositoy is a community driven repository. Feel free to contribute.
+Interview Maze is a public community of self-learners to prepare for technical interviews. Our motive is to push each other to get better results. Feel free to contribute. This repository is a community-driven repository. Feel free to contribute.
 
 # Content
 
@@ -43,7 +43,7 @@ Interview Maze is a private community of self learners to prepare for technical 
 - Every Solution should be well documented
 - Use &bull; (`&bull;`) as a separator
 - Use [template](./template.txt) before making any pull request.
-- Contributers can use any language.
-- program name must start with lower case characters.
+- Contributors can use any language.
+- program name must start with lowercase characters.
 
 Community: [`slack`](https://interviewmaze.slack.com/)
